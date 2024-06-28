@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive IRR Calculation</title>
+</head>
+<body>
+    <h1>Interactive IRR Calculation</h1>
+    <form action="/calculate" method="post">
+        <label for="start_date">Start Date (YYYY-MM-DD):</label>
+        <input type="text" id="start_date" name="start_date" value="2024-06-26"><br>
+        
+        <label for="end_date_base">End Date Base (YYYY-MM-DD):</label>
+        <input type="text" id="end_date_base" name="end_date_base" value="2025-04-26"><br>
+        
+        <label for="rate_change_date">Rate Change Date (YYYY-MM-DD):</label>
+        <input type="text" id="rate_change_date" name="rate_change_date" value="2025-12-31"><br>
+        
+        <label for="annual_rate_pre_change">Annual Rate Pre Change (%):</label>
+        <input type="text" id="annual_rate_pre_change" name="annual_rate_pre_change" value="6.354"><br>
+        
+        <label for="annual_rate_post_change">Annual Rate Post Change (%):</label>
+        <input type="text" id="annual_rate_post_change" name="annual_rate_post_change" value="11.8881"><br>
+        
+        <label for="purchase_price_range_start">Purchase Price Range Start:</label>
+        <input type="text" id="purchase_price_range_start" name="purchase_price_range_start" value="900000"><br>
+        
+        <label for="purchase_price_range_end">Purchase Price Range End:</label>
+        <input type="text" id="purchase_price_range_end" name="purchase_price_range_end" value="1200000"><br>
+        
+        <label for="purchase_price_range_step">Purchase Price Range Step:</label>
+        <input type="text" id="purchase_price_range_step" name="purchase_price_range_step" value="1000"><br>
+        
+        <label for="market_value">Market Value:</label>
+        <input type="text" id="market_value" name="market_value" value="1540000"><br>
+        
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
